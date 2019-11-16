@@ -1,8 +1,10 @@
-import {Boolean} from '../types/Boolean';
+import { Boolean } from '../types/Boolean';
 
 export class Cell {
-  constructor() {
-    
+  alive: Boolean;
+
+  constructor(alive: Boolean) {
+    this.alive = alive;
   }
 
   isAlive() {
