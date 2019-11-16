@@ -1,9 +1,11 @@
+import {Boolean} from '../types/Boolean';
+
 export class Cell {
   constructor() {
     
   }
 
   isAlive() {
-    return false;
+    return Boolean.False();
   }
 }
